@@ -15,7 +15,7 @@ const helloName=string=>{
     let greeting=""
     if(currHour<13){
         greeting="Buongiorno";
-    } else if(currHour<20){
+    } else if(currHour<17){
         greeting="Buon pomeriggio";
     } else {
         greeting="Buonasera"
