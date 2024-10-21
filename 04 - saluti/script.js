@@ -4,10 +4,11 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+const helloName=string=>`Ciao ${string}`;
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(helloName(name));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario

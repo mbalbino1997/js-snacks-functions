@@ -7,7 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 const arrayFirstLetter = array =>{
     const newArray=[];
     for(let i=0;i<array.length;i++){
-        newArray[i]=array[i].at(0);
+        newArray.push(array[i].at(0));
     }
     return newArray;
 }
