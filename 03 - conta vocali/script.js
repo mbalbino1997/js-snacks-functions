@@ -6,9 +6,10 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 
 const vocalNumber= string=>{
+    string=string.toLowerCase;
     let count=0;
     for(let i=0;i<string.length;i++){
-        if(string.charAt(i).toLowerCase()==="a"||string.charAt(i).toLowerCase()==="e"||string.charAt(i).toLowerCase()==="i"||string.charAt(i).toLowerCase()==="o"||string.charAt(i).toLowerCase()==="u"){
+        if(string.charAt(i)==="a"||string.charAt(i)==="e"||string.charAt(i)==="i"||string.charAt(i)==="o"||string.charAt(i)==="u"){
             count++;
         }
     
